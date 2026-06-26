@@ -3,3 +3,4 @@ timestamp,name,strategy,details,steps,seed_env,seed_agent,total_reward
 2026-06-26T15:24:13.858731,Ali Cihan Ozdemir,epsilon_greedy_decaying,decay_eps=1.0->0.01,2000,42,123,1581
 2026-06-26T15:26:21.292431,Ali Cihan Ozdemir,epsilon_greedy_decaying,decay_eps=1.0->0.01,2000,42,123,1581
 2026-06-26T15:40:52.910825,Ali Cihan Ozdemir,epsilon_greedy_decaying,decay_eps=1.0->0.01,2000,42,123,1581
+2026-06-26T15:53:16.164477,Ali Cihan Ozdemir,epsilon_greedy_decaying,decay_eps=1.0->0.01,2000,42,123,1581
