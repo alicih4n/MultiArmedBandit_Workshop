@@ -12,5 +12,6 @@ This repository contains the completed Jupyter Notebook for the Multi-Armed Band
 - **Bonus:** UCB1 (Upper Confidence Bound) algorithm implemented to balance exploration and exploitation mathematically.
 
 ## Repository Contents
-- `Casino_Challenge_MAB_Workshop.ipynb`: The main finalized notebook (includes Introduction, Reflect & Discuss, Talking Points, and Conclusion).
+- `AliCihanOzdemir_MAB_Exercise1.ipynb`: **Primary submission file** — contains Round 1, Round 2, and Thompson Sampling implementations with visualizations and reflections.
+- `Casino_Challenge_MAB_Workshop.ipynb`: The original gamified workshop notebook with bonus UCB1 implementation.
 - `submissions_round1.csv` & `submissions_round2.csv`: Generated leaderboard results for both rounds.
