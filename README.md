@@ -1,66 +1,16 @@
-# 🎰 Casino Challenge — Multi-Armed Bandits & ε-Greedy (Gamified Workshop)
+# CSCN8020 - Multi-Armed Bandit Workshop
 
-## 📘 Overview
-This workshop introduces **exploration–exploitation trade-offs** in **Reinforcement Learning** through a gamified **Multi-Armed Bandit (MAB)** challenge.  
-Students will implement ε-greedy policies, compete for the highest rewards, and analyze their strategies in both stationary and non-stationary environments.
+**Author:** Ali Cihan Ozdemir  
+**Student ID:** 9091405  
 
----
+## Overview
+This repository contains the completed Jupyter Notebook for the Multi-Armed Bandit (MAB) Casino Challenge. The project explores the exploration-exploitation trade-off using Reinforcement Learning techniques. The notebook has been strictly formatted to be highly synthetic, concise, and structured with clear bullet points.
 
-## 🧠 Learning Objectives
-By completing this workshop, students will be able to:
-- Explain the **exploration vs. exploitation dilemma**.
-- Implement **ε-greedy** and **decaying ε-greedy** algorithms.
-- Compare the effects of different ε values on performance.
-- Adapt policies for **non-stationary bandits** using constant step-size (α).
-- Reflect critically on their strategies and outcomes.
+## Strategies Implemented
+- **Round 1 (Stationary Casino):** Decaying ε-greedy strategy. Optimizes early exploration and guarantees late exploitation.
+- **Round 2 (Non-Stationary Casino):** Constant step-size (α) and fixed ε. Tracks drifting probabilities using an Exponential Moving Average (EMA).
+- **Bonus:** UCB1 (Upper Confidence Bound) algorithm implemented to balance exploration and exploitation mathematically.
 
----
-
-## 🏗️ Workshop Structure
-
-| Phase | Activity | Description |
-|-------|-----------|-------------|
-| 1 | **Setup & Introduction** | Review MAB concepts and workshop goals. |
-| 2 | **Round 1 – Stationary Casino** | Students compete using ε-greedy strategies. |
-| 3 | **Leaderboard & Reflection** | Submit scores, compare results, and discuss strategies. |
-| 4 | **Round 2 – Non-Stationary Casino** | Adapt to drifting reward probabilities using constant α. |
-| 5 | **Final Discussion** | Relate bandit learning to real-world systems (A/B testing, ads, recommendations). |
-
----
-
-## 🎮 Gamified Components
-- **Leaderboards:** Students submit results to CSV files (`submissions_round1.csv`, `submissions_round2.csv`) and view rankings.
-- **Badges / Awards:**
-  - 🥇 *Efficient Exploiter* — Highest reward with low ε.
-  - 🧭 *Risk Taker* — High ε with competitive performance.
-  - 🔄 *Adaptive Strategist* — Best performance in non-stationary round.
-- **Reflection Prompts:** Encourage analysis of exploration behavior and real-world parallels.
-
----
-
-## 💻 Technical Notes
-- Works in **Jupyter Notebook** or **Google Colab**.
-- Dependencies: `numpy`, `matplotlib`, `pandas`, `IPython.display`
-- Each student runs locally; the instructor collects leaderboard CSVs for aggregation.
-
----
-
-## 🧩 Files Included
-| File | Description |
-|------|--------------|
-| `Casino_Challenge_MAB_Workshop.ipynb` | Main notebook with competition, code, and reflection prompts. |
-| `README.md` | This summary document. |
-
----
-
-## 🧭 Instructor Tips
-- Keep the same random seed (`SEED_ENV`) for fairness.
-- Hide true means during competition.
-- Encourage students to explain *why* their chosen ε performed as it did.
-- Optionally extend to **UCB** or **Thompson Sampling**.
-
----
-
-## 🧾 License
-For educational use in academic settings.  
-Developed with support from OpenAI’s ChatGPT (GPT‑5) as part of CSCN8020 Machine Learning Education Tools.
+## Repository Contents
+- `Casino_Challenge_MAB_Workshop.ipynb`: The main finalized notebook (includes Introduction, Reflect & Discuss, Talking Points, and Conclusion).
+- `submissions_round1.csv` & `submissions_round2.csv`: Generated leaderboard results for both rounds.
